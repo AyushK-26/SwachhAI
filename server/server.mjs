@@ -11,6 +11,7 @@ const PORT = process.env.PORT || 3500;
 
 app.use(cors(corsOptions));
 
+// Report route handler
 app.post("/report", (req, res) => {});
 
 app.listen(PORT, () => {
